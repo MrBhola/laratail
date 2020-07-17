@@ -40,6 +40,7 @@
         <table id="example" class="border w-full display">
             <thead>
                 <tr>
+                    <th>id</th>
                     <th>Title</th>
                     <th>Created at</th>
                     <th class="text-right">Action</th>
@@ -48,6 +49,7 @@
             <tbody>
                 @foreach($articles as $item)
                 <tr>
+                    <td>{{$item->id}}</td>
                     <td>{{$item->title}}</td>
                     <td class="text-center">{{$item->created_at->format('Y-m-d')}}</td>
                     <td class="flex justify-end">

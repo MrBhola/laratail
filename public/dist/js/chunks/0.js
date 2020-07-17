@@ -16552,29 +16552,29 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var simplemde__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! simplemde */ "./node_modules/simplemde/src/js/simplemde.js");
-/* harmony import */ var simplemde__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(simplemde__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var simplemde__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! simplemde */ "./node_modules/simplemde/src/js/simplemde.js");
+/* harmony import */ var simplemde__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(simplemde__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _mixins_Fileupload__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../mixins/Fileupload */ "./node_modules/simplemde-vue/mixins/Fileupload.js");
 
 
 /* harmony default export */ __webpack_exports__["default"] = (toolbar = [
     {
         name: "bold",
-        action: simplemde__WEBPACK_IMPORTED_MODULE_2___default.a.toggleBold,
+        action: simplemde__WEBPACK_IMPORTED_MODULE_0___default.a.toggleBold,
         className: "fa fa-bold",
         title: "Bold",
         default: true
     },
     {
         name: "italic",
-        action: simplemde__WEBPACK_IMPORTED_MODULE_2___default.a.toggleItalic,
+        action: simplemde__WEBPACK_IMPORTED_MODULE_0___default.a.toggleItalic,
         className: "fa fa-italic",
         title: "Italic",
         default: true
     },
     {
         name: "heading",
-        action: simplemde__WEBPACK_IMPORTED_MODULE_2___default.a.toggleHeadingSmaller,
+        action: simplemde__WEBPACK_IMPORTED_MODULE_0___default.a.toggleHeadingSmaller,
         className: "fa fa-header",
         title: "Heading",
         default: true
@@ -16582,41 +16582,41 @@ __webpack_require__.r(__webpack_exports__);
     "|",
     {
         name: "code",
-        action: simplemde__WEBPACK_IMPORTED_MODULE_2___default.a.toggleCodeBlock,
+        action: simplemde__WEBPACK_IMPORTED_MODULE_0___default.a.toggleCodeBlock,
         className: "fa fa-code",
         title: "Code"
     },
     {
         name: "quote",
-        action: simplemde__WEBPACK_IMPORTED_MODULE_2___default.a.toggleBlockquote,
+        action: simplemde__WEBPACK_IMPORTED_MODULE_0___default.a.toggleBlockquote,
         className: "fa fa-quote-left",
         title: "Quote",
         default: true
     },
     {
         name: "unordered-list",
-        action: simplemde__WEBPACK_IMPORTED_MODULE_2___default.a.toggleUnorderedList,
+        action: simplemde__WEBPACK_IMPORTED_MODULE_0___default.a.toggleUnorderedList,
         className: "fa fa-list-ul",
         title: "Generic List",
         default: true
     },
     {
         name: "ordered-list",
-        action: simplemde__WEBPACK_IMPORTED_MODULE_2___default.a.toggleOrderedList,
+        action: simplemde__WEBPACK_IMPORTED_MODULE_0___default.a.toggleOrderedList,
         className: "fa fa-list-ol",
         title: "Numbered List",
         default: true
     },
     {
         name: "clean-block",
-        action: simplemde__WEBPACK_IMPORTED_MODULE_2___default.a.cleanBlock,
+        action: simplemde__WEBPACK_IMPORTED_MODULE_0___default.a.cleanBlock,
         className: "fa fa-eraser fa-clean-block",
         title: "Clean block"
     },
     "|",
     {
         name: "link",
-        action: simplemde__WEBPACK_IMPORTED_MODULE_2___default.a.drawLink,
+        action: simplemde__WEBPACK_IMPORTED_MODULE_0___default.a.drawLink,
         className: "fa fa-link",
         title: "Create Link",
         default: true
@@ -16632,34 +16632,34 @@ __webpack_require__.r(__webpack_exports__);
     },
     {
         name: "table",
-        action: simplemde__WEBPACK_IMPORTED_MODULE_2___default.a.drawTable,
+        action: simplemde__WEBPACK_IMPORTED_MODULE_0___default.a.drawTable,
         className: "fa fa-table",
         title: "Insert Table"
     },
     {
         name: "horizontal-rule",
-        action: simplemde__WEBPACK_IMPORTED_MODULE_2___default.a.drawHorizontalRule,
+        action: simplemde__WEBPACK_IMPORTED_MODULE_0___default.a.drawHorizontalRule,
         className: "fa fa-minus",
         title: "Insert Horizontal Line"
     },
     "|",
     {
         name: "preview",
-        action: simplemde__WEBPACK_IMPORTED_MODULE_2___default.a.togglePreview,
+        action: simplemde__WEBPACK_IMPORTED_MODULE_0___default.a.togglePreview,
         className: "fa fa-eye no-disable",
         title: "Toggle Preview",
         default: true
     },
     {
         name: "side-by-side",
-        action: simplemde__WEBPACK_IMPORTED_MODULE_2___default.a.toggleSideBySide,
+        action: simplemde__WEBPACK_IMPORTED_MODULE_0___default.a.toggleSideBySide,
         className: "fa fa-columns no-disable no-mobile",
         title: "Toggle Side by Side",
         default: true
     },
     {
         name: "fullscreen",
-        action: simplemde__WEBPACK_IMPORTED_MODULE_2___default.a.toggleFullScreen,
+        action: simplemde__WEBPACK_IMPORTED_MODULE_0___default.a.toggleFullScreen,
         className: "fa fa-arrows-alt no-disable no-mobile",
         title: "Toggle Fullscreen",
         default: true
@@ -16675,13 +16675,13 @@ __webpack_require__.r(__webpack_exports__);
     "|",
     {
         name: "undo",
-        action: simplemde__WEBPACK_IMPORTED_MODULE_2___default.a.undo,
+        action: simplemde__WEBPACK_IMPORTED_MODULE_0___default.a.undo,
         className: "fa fa-undo no-disable",
         title: "Undo"
     },
     {
         name: "redo",
-        action: simplemde__WEBPACK_IMPORTED_MODULE_2___default.a.redo,
+        action: simplemde__WEBPACK_IMPORTED_MODULE_0___default.a.redo,
         className: "fa fa-repeat no-disable",
         title: "Redo"
     }
@@ -16701,8 +16701,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FileUpload", function() { return FileUpload; });
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var simplemde__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! simplemde */ "./node_modules/simplemde/src/js/simplemde.js");
-/* harmony import */ var simplemde__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(simplemde__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var simplemde__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! simplemde */ "./node_modules/simplemde/src/js/simplemde.js");
+/* harmony import */ var simplemde__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(simplemde__WEBPACK_IMPORTED_MODULE_1__);
 
 
 var FileUpload = {
@@ -16712,7 +16712,7 @@ var FileUpload = {
         }
     },
     mounted() {
-        this.simpleMde = new simplemde__WEBPACK_IMPORTED_MODULE_2___default.a({
+        this.simpleMde = new simplemde__WEBPACK_IMPORTED_MODULE_1___default.a({
             element: document.getElementById("_editor"),
             toolbar: this.toolbar
         });
@@ -19861,8 +19861,8 @@ if (true) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var simplemde__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! simplemde */ "./node_modules/simplemde/src/js/simplemde.js");
-/* harmony import */ var simplemde__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(simplemde__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var simplemde__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! simplemde */ "./node_modules/simplemde/src/js/simplemde.js");
+/* harmony import */ var simplemde__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(simplemde__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _mixins_Fileupload__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../mixins/Fileupload */ "./node_modules/simplemde-vue/mixins/Fileupload.js");
 /* harmony import */ var _config_toolbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../config/toolbar */ "./node_modules/simplemde-vue/config/toolbar.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");

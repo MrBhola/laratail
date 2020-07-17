@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "dist/js/chunks/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"635cc713ac89ae034ba2","1":"3d841af0ee364e8c5e00","2":"48ba2797b432100c61d2"}[chunkId] + ""
+/******/ 		return __webpack_require__.p + "dist/js/chunks/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"635cc713ac89ae034ba2","1":"64b0e167e84c435af70f","2":"35e425fb5221a11441c5"}[chunkId] + ""
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -29919,10 +29919,10 @@ window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
 __webpack_require__(/*! @/utils/flash.js */ "./resources/js/utils/flash.js");
 
 vue__WEBPACK_IMPORTED_MODULE_0__["default"].component('FileInput', function () {
-  return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! @/components/FileInput */ "./resources/js/components/FileInput.vue"));
+  return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! @/components/FileInput */ "./resources/js/components/FileInput.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_0__["default"].component('editor', function () {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, /*! @/components/editor */ "./resources/js/components/editor.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.bind(null, /*! @/components/editor */ "./resources/js/components/editor.vue"));
 });
 var app = new vue__WEBPACK_IMPORTED_MODULE_0__["default"]({
   el: '#app'
